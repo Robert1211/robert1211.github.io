@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Aldrich|PT+Mono|Sarpanch");
 .navbar {
   margin-bottom: 0;
   background-color: rgba(8, 8, 8, 0.8);
   border: none; }
   .navbar.navbar-default .navbar-nav > li > a, .navbar.navbar-default .navbar-header .navbar-brand {
-    font-family: "Cantarell", sans-serif;
+    font-family: 'Aldrich', sans-serif;
     text-transform: uppercase;
     transition: color 0.3s ease-in-out;
     color: #FEFDEB; }
@@ -24,7 +25,7 @@ section {
     background-color: #AFB1C9;
     background-image: url("https://jpk-image-hosting.s3.amazonaws.com/skyline.jpg"); }
     section.home-intro h1 {
-      font-family: "Dancing Script", cursive;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700;
       font-size: 60px;
       color: #E33258;
@@ -32,9 +33,9 @@ section {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         section.home-intro h1 {
-          font-size: 90px; } }
+          font-size: 75px; } }
     section.home-intro h2 {
-      font-family: "Cantarell", sans-serif;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700;
       font-size: 22px;
       color: #363B3A;
@@ -60,13 +61,13 @@ section {
     background-color: #A4B5BF;
     background-image: url("https://jpk-image-hosting.s3.amazonaws.com/computer-desk.jpg");
     color: #FEFDEB;
-    font-family: "Cantarell", sans-serif; }
+    font-family: 'Aldrich', sans-serif; }
     section.about p {
       font-size: 16px;
       font-weight: 400;
       line-height: 1.4; }
     section.about blockquote {
-      font-family: "Cantarell", sans-serif;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700; }
   section.portfolio {
     background-color: #9DE0AD;
@@ -74,7 +75,7 @@ section {
     section.portfolio h2 {
       margin-top: 40px;
       margin-bottom: 40px;
-      font-family: "Cantarell", sans-serif;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700;
       text-transform: uppercase; }
     section.portfolio .project {
@@ -103,7 +104,7 @@ section {
           vertical-align: middle;
           text-align: center;
           text-transform: uppercase;
-          font-family: "Cantarell", sans-serif;
+          font-family: 'Aldrich', sans-serif;
           font-size: 24px;
           color: #CDD7B6; }
       section.portfolio .project:hover .overlay, section.portfolio .project:focus .overlay, section.portfolio .project:active
@@ -113,7 +114,7 @@ section {
     background-color: #594F4F;
     background-image: url("https://jpk-image-hosting.s3.amazonaws.com/can-talk.jpg"); }
     section.contact h2 {
-      font-family: "Cantarell", sans-serif;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700;
       font-size: 22px;
       color: #CDD7B6; }
@@ -121,7 +122,7 @@ section {
         section.contact h2 {
           font-size: 28px; } }
     section.contact h3 a {
-      font-family: "Cantarell", sans-serif;
+      font-family: 'Aldrich', sans-serif;
       font-weight: 700;
       font-size: 28px;
       text-transform: uppercase;
