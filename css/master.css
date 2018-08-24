@@ -116,8 +116,7 @@ section {
       font-family: "Cantarell", sans-serif;
       font-weight: 700;
       font-size: 22px;
-      color: #CDD7B6;
-      text-transform: uppercase; }
+      color: #CDD7B6; }
       @media (min-width: 768px) {
         section.contact h2 {
           font-size: 28px; } }

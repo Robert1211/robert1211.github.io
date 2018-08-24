@@ -132,12 +132,12 @@ section {
   &.contact{
     background-color: #594F4F;
     background-image: url('https://jpk-image-hosting.s3.amazonaws.com/can-talk.jpg');
-    h2{
+    h2 {
       font-family: "Cantarell", sans-serif;
       font-weight: 700;
       font-size: 22px;
       color: #CDD7B6;
-      text-transform: uppercase;
+      // text-transform: uppercase;
       @media (min-width: 768px){
         font-size: 28px;
       }
