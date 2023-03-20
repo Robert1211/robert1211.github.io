@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Aldrich|PT+Mono|Sarpanch');
 
-// html,
-// body {
-//   margin: 0;
-//   padding: 0;
-//   height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 
-//   min-height: 100%;
-//   position: relative;
+  min-height: 100%;
+  position: relative;
 
-// }
+}
 
 .navbar {
 
@@ -490,7 +490,7 @@ section {
       }
 
       @media (max-width: 393px) {
-        font-size: 25px;
+        font-size: 22px;
       }
 
       @media (max-width: 375px) {
@@ -526,6 +526,10 @@ section {
 
       @media (max-width: 1000px) {
         font-size: 42px;
+      }
+
+      @media (max-width: 390px) {
+        font-size: 30px;
       }
 
       @media (max-width: 320px) {
