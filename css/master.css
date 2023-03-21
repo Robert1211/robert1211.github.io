@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Aldrich|PT+Mono|Sarpanch");
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  min-height: 100%;
+html {
   position: relative;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 .navbar {
@@ -420,6 +420,11 @@ section.contact h2 {
     font-size: 28px;
   }
 }
+@media (max-width: 414px) {
+  section.contact h2 {
+    font-size: 24px;
+  }
+}
 @media (max-width: 393px) {
   section.contact h2 {
     font-size: 22px;
@@ -430,9 +435,19 @@ section.contact h2 {
     font-size: 24px;
   }
 }
+@media (max-width: 360px) {
+  section.contact h2 {
+    font-size: 22px;
+  }
+}
 @media (max-width: 320px) {
   section.contact h2 {
     font-size: 20px;
+  }
+}
+@media (max-width: 280px) {
+  section.contact h2 {
+    font-size: 16px;
   }
 }
 section.contact h3 a {
@@ -467,6 +482,11 @@ section.contact h3 a:hover, section.contact h3 a:focus, section.contact h3 a:act
     font-size: 33px;
   }
 }
+@media (max-width: 280px) {
+  section.contact h3 a {
+    font-size: 26px;
+  }
+}
 section .vcenter {
   height: 100%;
 }
@@ -482,81 +502,52 @@ section .vcenter .row div[class^=col-] {
 
 .footer {
   position: absolute;
-  bottom: -580px;
-  padding-top: 12px;
+  bottom: 0;
   width: 100%;
-  height: 75%;
+  height: 35px;
+  background-color: #E33258;
   font-size: 20px;
   text-align: center;
-  color: #E33258;
-}
-@media (max-width: 499px) {
-  .footer {
-    position: absolute;
-    bottom: -724px;
-    padding-top: 12px;
-    padding-left: 5px;
-    padding-right: 25px;
-    width: 100%;
-    height: 75%;
-    font-size: 24px;
-    text-align: center;
-    color: #E33258;
-  }
+  color: #0a192f;
 }
 @media (max-width: 414px) {
   .footer {
-    position: absolute;
-    bottom: -560px;
-    padding-top: 12px;
-    padding-left: 5px;
-    padding-right: 25px;
-    width: 100%;
-    height: 75%;
-    font-size: 22px;
-    text-align: center;
-    color: #E33258;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 393px) {
+  .footer {
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
   }
 }
 @media (max-width: 375px) {
   .footer {
-    position: absolute;
-    bottom: -437px;
-    padding-top: 12px;
-    padding-left: 5px;
-    padding-right: 25px;
-    width: 100%;
-    height: 75%;
-    font-size: 19px;
-    text-align: center;
-    color: #E33258;
-  }
-}
-@media (max-width: 374px) {
-  .footer {
-    position: absolute;
-    bottom: -437px;
-    padding-top: 12px;
-    padding-left: 5px;
-    padding-right: 25px;
-    width: 100%;
-    height: 75%;
-    font-size: 19px;
-    text-align: center;
-    color: #E33258;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    height: 35px;
   }
 }
 @media (max-width: 320px) {
   .footer {
-    position: absolute;
-    bottom: -328px;
-    padding-top: 12px;
-    padding-left: 5px;
-    padding-right: 25px;
-    width: 100%;
-    height: 75%;
-    font-size: 15px;
-    text-align: center;
-    color: #E33258;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 280px) {
+  .footer {
+    font-size: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=master.css.map */
