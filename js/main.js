@@ -1,18 +1,19 @@
-$(function(){
-  var sizeSection = function(){
+$(function () {
+  var sizeSection = function () {
     var viewHeight = $(window).height();
-    $("section").each(function(){
+    $("section").each(function () {
       var naturalHeight = $(this).find(".content").outerHeight();
-      if ( naturalHeight > viewHeight){
+      if (naturalHeight > viewHeight) {
         $(this).css("height", "auto");
-      }else{
+      } else {
         $(this).css("height", viewHeight + "px");
       }
     });
   }
   sizeSection();
   $('.navbar a').smoothScroll();
-  $(window).resize(function(){
+  $(window).resize(function () {
     sizeSection();
   })
 })
+
