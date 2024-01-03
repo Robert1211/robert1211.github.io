@@ -20,7 +20,6 @@
 - Live Demo: https://infinite-scrubland-70213.herokuapp.com/
 
 
-
 #### Project 3
 - Description: "Happy Find" is search application with users having skills.
 - Web application built with: Ruby on Rails - Back end, React - Front end, Google Maps JavaScript API, Heroku - SERVER, PostgreSQL, HTML, CSS, SCSS, Bootstrap.
