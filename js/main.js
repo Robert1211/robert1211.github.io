@@ -11,6 +11,7 @@ $(function () {
     });
   }
 
+
   sizeSection();
   $('.navbar a').smoothScroll();
   $(window).resize(function () {
