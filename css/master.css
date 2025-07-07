@@ -20,7 +20,7 @@ body {
   color: slategray;
 }
 .navbar.navbar-default .navbar-nav > li > a:hover, .navbar.navbar-default .navbar-nav > li > a:focus, .navbar.navbar-default .navbar-nav > li > a:active, .navbar.navbar-default .navbar-header .navbar-brand:hover, .navbar.navbar-default .navbar-header .navbar-brand:focus, .navbar.navbar-default .navbar-header .navbar-brand:active {
-  color: #48A09B;
+  color: #48a09b;
 }
 
 section {
@@ -42,7 +42,7 @@ section.home-intro {
 section.home-intro h1 {
   font-family: "Aldrich", sans-serif;
   font-weight: 70px;
-  color: #E33258;
+  color: #e33258;
   margin-top: 0px;
   margin-bottom: 15px;
 }
@@ -74,7 +74,7 @@ section.home-intro h2 {
   padding-top: 10px;
   margin-top: 0;
   margin-bottom: 13px;
-  border-top: 3px solid #363B3A;
+  border-top: 3px solid #363b3a;
   display: inline-block;
 }
 @media (max-width: 2000px) {
@@ -98,7 +98,7 @@ section.home-intro h2 {
   }
 }
 section.home-intro h2.my__name {
-  color: #E33258;
+  color: #e33258;
   border-top: none;
   display: block;
   font-size: 30px;
@@ -131,7 +131,7 @@ section.home-intro ul li {
   display: inline;
 }
 section.home-intro ul li a {
-  color: #48A09B;
+  color: #48a09b;
   transition: color 0.3s linear;
   font-size: 15px;
 }
@@ -156,7 +156,7 @@ section.home-intro ul li a {
   }
 }
 section.home-intro ul li a:hover, section.home-intro ul li a:focus, section.home-intro ul li aactive {
-  color: #E33258;
+  color: #e33258;
 }
 section.about {
   background-color: #0a192f;
@@ -189,7 +189,7 @@ section.portfolio h2 {
   font-family: "Aldrich", sans-serif;
   font-weight: 700;
   font-size: 50px;
-  color: #E33258;
+  color: #e33258;
 }
 @media (max-width: 375px) {
   section.portfolio h2 {
@@ -214,7 +214,7 @@ section.portfolio .project {
   margin-bottom: 20px;
 }
 section.portfolio .project h4 {
-  color: #E33258;
+  color: #e33258;
   text-align: center;
   -webkit-text-decoration: transparent;
           text-decoration: transparent;
@@ -261,7 +261,7 @@ section.portfolio .project h4 {
       color: #a1d7d4;
     }
     100% {
-      color: #48A09B;
+      color: #48a09b;
     }
   }
 }
@@ -376,12 +376,12 @@ section.portfolio .project .overlay {
   overflow: hidden;
   z-index: 10;
   transition: opacify 0.3s ease-in-out;
-  border: 5px solid #48A09B;
+  border: 5px solid #48a09b;
   border-radius: 12px;
 }
 @media (min-width: 500px) {
   section.portfolio .project .overlay {
-    background-color: #48A09B;
+    background-color: #48a09b;
   }
 }
 section.portfolio .project .overlay h4 {
@@ -456,11 +456,11 @@ section.contact h3 a {
   font-size: 28px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #48A09B;
+  color: #48a09b;
   transition: color 0.3s linear;
 }
 section.contact h3 a:hover, section.contact h3 a:focus, section.contact h3 a:active {
-  color: #E33258;
+  color: #e33258;
 }
 @media (max-width: 2000px) {
   section.contact h3 a {
@@ -505,7 +505,7 @@ section .vcenter .row div[class^=col-] {
   bottom: 0;
   width: 100%;
   height: 35px;
-  background-color: #E33258;
+  background-color: #e33258;
   font-size: 20px;
   text-align: center;
   color: #0a192f;
